@@ -1,5 +1,12 @@
-	html{
+	html,body{
 		background: skyblue;
+		height: 100%;
+		padding: 0;
+		margin: 0;
+	}
+	body{
+		position: relative;
+		text-align: center;
 	}
 	.banner{
 		width: 130px;
@@ -12,13 +19,17 @@
 	}
 	.main{
 		width: 85%;
+		margin: 0;
 		color: white;
-		font-size: 15px;
-		letter-spacing: 2px;
 		position: absolute;
-		top: 40%;
+		top: 50%;
 		left: 50%;
-		transform: translate(-50%);
+		transform: translate(-50%,-50%);
+	}
+	.main p{
+		width: 85%;
+		text-align: left;
+		margin: 0 auto;
 	}
 	.left{
 		float: left;
@@ -46,5 +57,7 @@
 		color: white;
 	}
 	.icon{
+		margin-top: 20px;
+		margin-left: 20px;
 		width: 35px;
 	}
